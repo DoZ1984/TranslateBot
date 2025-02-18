@@ -1,69 +1,77 @@
-TranslateBot 
-------------
+# Translation Bot / Bot de Traducción
+
+Este proyecto es un bot de Discord que proporciona servicios de traducción de mensajes utilizando APIs de terceros. A continuación se detalla la documentación e instrucciones para instalar e invitar al bot a tu servidor, tanto en inglés como en español. Estas instrucciones están pensadas para usuarios y administradores que desean disfrutar del servicio, no para desarrolladores.
+
+---
 
 ## English
 
 ### Overview
-Translation Bot is a Discord bot built with Python and the discord.py library. It enables users to translate messages between supported languages directly within Discord servers. The bot leverages third-party translation APIs and supports administrator commands for managing translation settings.
+Translation Bot is a Discord bot built to help users translate messages between supported languages directly within their servers. It leverages third-party translation APIs and offers both automatic and command-based translation features, along with administration tools to manage translation settings.
 
 ### Features
-- **Automatic Translation:** Detects the language of messages and translates them to a default or specified language.
-- **Specific Translation Commands:** Use commands like `!translate_[source]_to_[target]` to activate targeted translations.
-- **Administration Tools:** Admins can enable/disable translations, block/unblock users, and clear active translation configurations.
-- **Direct Commands via DM:** Provides language codes and help instructions via direct messages.
+- **Automatic Translation:** Detects the language of a written message and translates it to a default or specified language.
+- **Specific Translation Commands:** Activate targeted translations using commands like `!translate_[source]_to_[target]`.
+- **Administration Tools:** Administrators can enable/disable translations, block/unblock users, and clear active translation configurations.
+- **Direct Support via DM:** Get language codes and help instructions directly in your private messages.
 
-### How to Invite the Bot
-1. Visit the Discord Developer Portal and log in with your Discord account.
-2. Go to your application’s page and navigate to the “OAuth2” section.
-3. Under "OAuth2 URL Generator," select the "bot" scope.
-4. Choose the necessary permissions for the bot (e.g., reading messages, sending messages).
-5. Copy the generated URL and open it in your browser.
-6. Select the server you wish to invite the bot to and authorize its access.
+### How to Install the Bot as a Client
+
+If you want to add Translation Bot to your Discord server, follow these steps:
+1. **Get the Invite Link:**  
+   You should have received an invite URL from the bot provider. If not, visit the bot’s website or contact the bot administrator to obtain it.
+2. **Open the Invite Link:**  
+   Click the invite link and sign in to your Discord account if prompted.
+3. **Select Your Server:**  
+   In the invite interface, choose the Discord server where you have permissions to add bots.
+4. **Authorize the Bot:**  
+   Review the permissions the bot is requesting (such as reading messages and sending messages). Then click "Authorize" to add the bot to your server.
+5. **Configuration (Optional):**  
+   After the bot is added, you may use in-server commands like `!translate_help` to view available commands and configure translation settings according to your needs.
 
 ### Usage
 - **User Commands:**
-  - `!translate_[source]_to_[target]`: Activate specific translation (e.g., `!translate_es_to_en`).
+  - `!translate_[source]_to_[target]`: Activate a specific translation (e.g., `!translate_es_to_en`).
   - `!translate_status`: View current translation configurations and active users.
   - `!translate_codes`: List available language codes.
   - `!translate_help`: Receive help instructions via DM.
   - `!translate_off`: Disable your active translation.
-
 - **Administrator Commands:**
   - `!translate_clean`: Clear all active translations.
-  - `!translate_block <user>`: Block a user from translation features.
+  - `!translate_block <user>`: Block a user from using translation features.
   - `!translate_unblock <user>`: Unblock a previously blocked user.
   - `!translate_disable`: Disable translations for the server.
   - `!translate_enable`: Enable translations for the server.
 
-### Contributing
-Contributions are welcome! Please fork this repository and submit pull requests with detailed descriptions of your changes.
-
-### License
-This project is provided "as is" without any warranty. Refer to the project's license file for more information.
-
-### Contact
-For questions, issues, or support, please contact the bot administrator or open an issue in the repository.
+### Contributing and Support
+While this documentation is intended for users, contributions and feedback are always welcome. For any issues, questions, or support, please contact the bot administrator or open an issue through the provided support channels.
 
 ---
 
 ## Español
 
 ### Descripción General
-Bot de Traducción es un bot de Discord desarrollado en Python utilizando la librería discord.py. Permite a los usuarios traducir mensajes entre idiomas compatibles directamente en los servidores de Discord. El bot utiliza APIs de traducción de terceros y ofrece comandos de administración para gestionar la configuración de las traducciones.
+Bot de Traducción es un bot de Discord diseñado para ayudar a los usuarios a traducir mensajes entre idiomas compatibles directamente en sus servidores. Utiliza APIs de traducción de terceros y ofrece funciones de traducción automática y por comandos, junto con herramientas de administración para gestionar la configuración de las traducciones.
 
 ### Características
-- **Traducción Automática:** Detecta el idioma de los mensajes y los traduce a un idioma predeterminado o especificado.
-- **Comandos de Traducción Específica:** Utiliza comandos como `!translate_[source]_to_[target]` para activar traducciones específicas.
-- **Herramientas de Administración:** Los administradores pueden activar/desactivar las traducciones, bloquear/desbloquear usuarios y limpiar las configuraciones de traducción activas.
-- **Comandos Directos por DM:** Proporciona códigos de idioma e instrucciones de ayuda mediante mensajes directos.
+- **Traducción Automática:** Detecta el idioma de un mensaje y lo traduce a un idioma predeterminado o especificado.
+- **Comandos de Traducción Específica:** Activa traducciones específicas utilizando comandos como `!translate_[source]_to_[target]`.
+- **Herramientas de Administración:** Los administradores pueden activar/desactivar las traducciones, bloquear/desbloquear usuarios y limpiar las configuraciones activas.
+- **Soporte Directo vía DM:** Recibe códigos de idioma e instrucciones de ayuda mediante mensajes directos.
 
-### Cómo Invitar al Bot
-1. Ingresa al Discord Developer Portal e inicia sesión con tu cuenta de Discord.
-2. Dirígete a la página de tu aplicación y navega a la sección “OAuth2”.
-3. En "Generador de URL de OAuth2", selecciona el alcance "bot".
-4. Elige los permisos necesarios para el bot (por ejemplo, leer mensajes, enviar mensajes).
-5. Copia la URL generada y ábrela en tu navegador.
-6. Selecciona el servidor al que deseas invitar al bot y autoriza su acceso.
+### Cómo Instalar el Bot como Cliente
+
+Si deseas agregar el Bot de Traducción a tu servidor de Discord, sigue estos pasos:
+1. **Obtén el Enlace de Invitación:**  
+   Deberías haber recibido un URL de invitación del proveedor del bot. En caso contrario, visita el sitio web del bot o contacta al administrador para obtenerlo.
+2. **Abre el Enlace de Invitación:**  
+   Haz clic en el enlace y, si es necesario, inicia sesión en tu cuenta de Discord.
+3. **Selecciona Tu Servidor:**  
+   En la interfaz de invitación, elige el servidor de Discord donde tienes permisos para agregar bots.
+4. **Autoriza al Bot:**  
+   Revisa los permisos que solicita el bot (por ejemplo, leer mensajes y enviar mensajes) y haz clic en "Autorizar" para agregarlo a tu servidor.
+5. **Configuración (Opcional):**  
+   Una vez agregado, puedes usar comandos dentro del servidor, como `!translate_help`, para ver los comandos disponibles y configurar la traducción según tus necesidades.
 
 ### Uso
 - **Comandos para Usuarios:**
@@ -71,8 +79,7 @@ Bot de Traducción es un bot de Discord desarrollado en Python utilizando la lib
   - `!translate_status`: Muestra las configuraciones actuales y los usuarios con traducciones activas.
   - `!translate_codes`: Lista los códigos de idioma disponibles.
   - `!translate_help`: Recibe instrucciones de ayuda por mensaje directo.
-  - `!translate_off`: Desactiva tu traducción activa.
-
+  - `!translate_off`: Desactiva la traducción activa.
 - **Comandos para Administradores:**
   - `!translate_clean`: Elimina todas las traducciones activas.
   - `!translate_block <usuario>`: Bloquea a un usuario para que no use las funciones de traducción.
@@ -80,11 +87,5 @@ Bot de Traducción es un bot de Discord desarrollado en Python utilizando la lib
   - `!translate_disable`: Desactiva las traducciones en el servidor.
   - `!translate_enable`: Activa las traducciones en el servidor.
 
-### Contribuciones
-¡Las contribuciones son bienvenidas! Por favor, haz un fork de este repositorio y envía pull requests con descripciones detalladas de los cambios realizados.
-
-### Licencia
-Este proyecto se proporciona "tal cual", sin garantía alguna. Consulta el archivo de licencia del proyecto para más detalles.
-
-### Contacto
-Para consultas, problemas o soporte, por favor contacta al administrador del bot o abre un issue en el repositorio.
+### Contribuciones y Soporte
+Aunque esta documentación está pensada para los usuarios finales, las contribuciones y comentarios siempre son bienvenidos. Para cualquier problema, pregunta o solicitud de soporte, por favor contacta al administrador del bot o abre un issue mediante los canales de soporte disponibles.
