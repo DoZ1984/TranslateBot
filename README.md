@@ -1,8 +1,5 @@
-# Translation Bot / Bot de Traducción
-
-Este proyecto es un bot de Discord que proporciona servicios de traducción de mensajes utilizando APIs de terceros. A continuación se detalla la documentación e instrucciones para instalar e invitar al bot a tu servidor, tanto en inglés como en español. Estas instrucciones están pensadas para usuarios y administradores que desean disfrutar del servicio, no para desarrolladores.
-
----
+# TranslateBot / Multi-Translator bot for Discord
+-------------------------------------------------
 
 ## English
 
